@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="TODO" method="POST">
+            <fieldset>
+                 <legend><h1>TODO-List</h1></legend>
+                <table style="border:1px solid black;margin-left:auto;margin-right:auto;">
+                        <div style="text-align: center"><h2>Create Your List</h2></div>
+                        <tr>
+                                     <th>Date</th>
+		<th>Description</th>
+                                     <th>Deadline</th>
+                                     <th>Time</th>
+                    </tr>
+                    <tr>
+                                     <th><input type="date"  name="date"></th>
+                                     <th><input type="text" name="description" placeholder="Task Description"></th>
+                                     <th><input type="date" name="deadline"></th>
+                                     <th><input type="time" name="time"></th>
+                    </tr>                   
+                </table>
+                <br>
+                <div style="text-align: center"> <select name="dp">
+                                    <option value="Select">--Select Operation--</option>
+                                    <option value="Create">Create Task</option>
+                                    <option value="Update">Update Task</option>
+                                    <option value="View">View Task's</option>
+                                    <option value="Delete" >Delete Task</option>
+                                </select>
+                </div>
+                 <div style="text-align: center"><input type="submit" name="dheeraj" value="Submit" style="margin:5px;" onclick="this"></div>
+                
+            </fieldset>
+        </form>
+    </body>
+</html>
